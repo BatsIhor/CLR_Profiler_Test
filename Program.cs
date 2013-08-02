@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 
 namespace CLR_Profiler_Test
 {
+    struct Node
+    {
+        int data;
+        static Node node;
+    }
+    
     class Program
     {
         static void Main(string[] args)
